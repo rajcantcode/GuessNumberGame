@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* FONT SIZE */
+  --Main-Font-size: 16px;
+  --Bigger-Font-size: 22px;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+
+/* 
+====================
+HEADER
+====================
+*/
+#header {
+  min-width: 100%;
+  border-bottom: 5px solid white;
+  min-height: 35vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+#header button {
+  padding: 1.5rem;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 20px;
+}
+.banner {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+#header h1 {
+  text-align: center;
+  order: 1;
+  font-size: 2.5rem;
+  /* margin: 2rem 0 4rem 0; */
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#header h1 + p {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: #222;
+  background-color: #eee;
+  font-size: 4rem;
+  padding: 1.8rem 2.7rem;
+}
+@media only screen and (max-width: 480px) {
+  #header button {
+    padding: 0.5rem;
+  }
+  .banner {
+    padding: 0.75rem;
+  }
+  .banner p {
+    margin-left: 1.5rem;
+    text-align: right;
+    font-size: 16px;
+  }
+  #header h1 {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    min-width: 100%;
+  }
+}
+/* 
+====================
+
+====================
+*/
+
+/* 
+====================
+
+====================
+*/
+
+/* 
+====================
+
+====================
+*/
+
+/* 
+====================
+
+====================
+*/
+
+/* 
+====================
+
+====================
+*/
+
+/* 
+====================
+
+====================
+*/
